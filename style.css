@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav{
+    background-color: #1B242F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    color: white;
+}
+
+#logo{
+    height: 30px;
+    margin-right: 30px;
+}
+
+.primary-links{
+    width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondary-links{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.secondary-links i{
+    font-size: 20px;
+}
+
+nav span{
+    display: flex;
+    align-items: center;
+}
+
+.try-btn{
+    background-color: #0f79af;
+    padding: 10px 30px;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.hero-section{
+    height: 70vh;
+    background-color: black;
+    color: #fff;
+    display: flex;
+}
+
+.text-section{
+    padding: 80px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.text-section h1{
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.text-section h3{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.join-btn{
+    background-color: #0f79af;
+    padding: 10px 50px;
+    border: none;
+    color: white;
+    border-radius: 2px;
+}
+
+
+.image-section{
+    width: 50%;
+    height: 100%;
+    background-image: url("./images/hero_image.jpg");
+    background-size: 110%;
+}
+
+    .image-section-two{
+        background: none;
+    }
+
+    .hero-section-two{
+        background-image: url("./images/hero_image_two.jpg");
+        background-size: cover;
+    }
+
+
+    .hero-section-three{
+        background-color: white;
+        color: black;
+        height: 100vh;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .hero-section-three .text-section h1{
+        font-size: 45px; 
+    }
+
+
+    .hero-section-three h3{
+       font-size: 23px;
+    }
+
+    .image-section-three{
+        width: 50%;
+        min-height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        background: none;
+    }
+
+    .box{
+    height: 150px;
+    width: 240px;
+    background-color: white;
+    background-size: cover;
+    transition: all ease-in-out 0.3s;
+    }
+
+    .box:hover{
+        transform: scale(80%);
+    }
+
+
+
+    .image-section-four{
+        background: none;
+        background-image: url('./images/MLP_Template_Image_Left.jpg');
+       
+    }
+
+    .new-btn{
+        background-color: #0f79af;
+        padding: 10px 50px;
+        border: none;
+        color: white;
+        border-radius: 2px;
+        margin-top: 40px;
+        width: 40%;
+        height: 15%;
+        font-size: large;
+    }
+
+    .box:first-child{
+        background-image: url('./childimages/image1.jpg');
+
+    }
+
+    .box:nth-child(2){
+        background-image: url('./childimages/2.jpg');
+    }
+   
+    .box:nth-child(3){
+        background-image: url('./childimages/3.jpg');
+    }
+   
+    .box:nth-child(4){
+        background-image: url('./childimages/4.jpg');
+    }
+   
+    .box:nth-child(5){
+        background-image: url('./childimages/5.jpg');
+    }
+   
+    .box:nth-child(6){
+        background-image: url('./childimages/6.png');
+    }
+   
+    .box:nth-child(7){
+        background-image: url('./childimages/7.png');
+    }
+   
+    .box:nth-child(8){
+        background-image: url('./childimages/8.jpg');
+    }
+   
+    .box:nth-child(9){
+        background-image: url('./childimages/9.jpg');
+    }
+   
+    .box:nth-child(10){
+        background-image: url('./childimages/10.png');
+    }
+   
+    .box:nth-child(11){
+        background-image: url('./childimages/11.png');
+    }
+   
+    .box:nth-child(12){
+        background-image: url('./childimages/12.jpg');
+    }
+
+    .hero-section-five{
+        width: 100%;
+        background-color: black;
+        color: white;
+        background-size: cover;
+        background-image: url('./images/kids.jpg');
+    }
+   
+    .image-section-five{
+        background: none;
+    }
+
+    footer{
+        height: 140px;
+        background-color: #222222;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    #logo_2{
+        margin-top: 22px;
+       margin-left: 30%;
+    }
+
+    .list{
+        display: flex;
+        list-style: none;
+        margin-top: 5px;
+        margin-right: 10px;
+        font-weight: 100;
+      
+    }
+
+    a{
+        margin: 20px;
+        text-decoration: none;
+        color: #0f79af; 
+    }
+
+    .end p{
+        color: #949494;
+        margin-top: 3px;
+        margin-left: 60px;
+    }
+
+    
+  
